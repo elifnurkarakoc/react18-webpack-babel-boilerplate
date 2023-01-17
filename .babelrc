@@ -1,0 +1,17 @@
+
+{
+    /*
+        ön ayar, belirli dil özelliklerini desteklemek için kullanılan bir dizi eklentilerdir. 
+        Babel'in varsayılan olarak kullandığı iki ön ayar: es2015, React
+    */
+    "presets": [
+        "@babel/preset-env", //compiling ES2015+ syntax
+        "@babel/preset-react" //for react
+    ],
+    /*
+        Babel'in kod dönüşümleri, yapılandırma dosyasına eklentiler veya hazır ayarlar uygulanarak etkinleştirilir.
+    */
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ]
+}
